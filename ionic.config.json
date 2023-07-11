@@ -1,0 +1,7 @@
+{
+  "name": "react-query-boilerplate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
