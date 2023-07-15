@@ -6,7 +6,6 @@ module.exports = {
   'extends': [
     'plugin:react/recommended',
     'eslint:recommended',
-    'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'prettier',
   ],
@@ -27,6 +26,5 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
     'prettier/prettier': 'error',
-    'react/jsx-no-target-blank': 'off',
   }
 }

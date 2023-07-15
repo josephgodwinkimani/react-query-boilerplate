@@ -1,8 +1,0 @@
-node_modules
-node_modules/*
-public
-build
-dist
-dev-dist
-.eslintrc.js
-prettier.config.js

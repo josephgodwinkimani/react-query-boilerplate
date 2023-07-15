@@ -1,7 +1,5 @@
 {
     "recommendations": [
-        "ionic.ionic",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "ionic.ionic"
     ]
 }
