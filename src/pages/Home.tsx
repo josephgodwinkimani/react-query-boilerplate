@@ -1,6 +1,16 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import UsersContainer from '../components/UsersContainer';
-import './Home.css';
+import "./Home.css";
+
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
+import React from "react";
+
+import NewUserContainer from "../components/NewUserContainer";
+import UsersContainer from "../components/UsersContainer";
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +27,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <UsersContainer />
+        <NewUserContainer />
       </IonContent>
     </IonPage>
   );
